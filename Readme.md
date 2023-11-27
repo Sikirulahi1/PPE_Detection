@@ -17,7 +17,6 @@ This project aims to detect personal protective equipment (PPE) components, incl
 - [Training](#training)
 - [Results](#results)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ## Introduction
 
@@ -56,13 +55,8 @@ pip install -r requirements.txt
 
 To utilize the PPE detection algorithm on your own images or videos, follow these commands:
 
-```bash
-# Run PPE detection on an image
-python PPEDetection.py --image_path path/to/your/image.jpg
-
-# Run PPE detection on a video
-python PPEDetection.py --video_path path/to/your/video.mp4
-```
+- Just change the video path to your own path to the video or image directory.
+- run PPEDetection.py
 
 ## Training
 
