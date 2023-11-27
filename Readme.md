@@ -1,6 +1,3 @@
-Certainly! Here's a more detailed README file that you can use for your Personal Protective Equipment (PPE) detection project:
-
----
 
 # Personal Protective Equipment (PPE) Detection
 
