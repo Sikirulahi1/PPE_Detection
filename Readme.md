@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project aims to detect personal protective equipment (PPE) components, including facemasks, safety vests, and hard hat helmets. The detection model is trained using a custom dataset obtained from [Roboflow](https://roboflow.com/) and implemented with YOLOv8l.
+This project aims to detect personal protective equipment (PPE) components, including facemasks, safety vests, and hard hat helmets. The detection model is trained using a custom dataset obtained from [Roboflow](https://roboflow.com/) using the yolov8 model.
 
 ## Table of Contents
 
@@ -57,6 +57,7 @@ To utilize the PPE detection algorithm on your own images or videos, follow thes
 
 ## Training
 
+
 I trained the PPE detection model on a custom dataset using the following steps:
 
 1. I downloaded the dataset from [Roboflow](https://roboflow.com/).
@@ -71,6 +72,6 @@ View the performance metrics and sample results obtained from the trained model 
 
 I would like to express my gratitude to the following:
 
-- [Roboflow](https://roboflow.com/) for providing the PPE dataset.
-- YOLOv8 for the powerful object detection framework.
+- [Roboflow](https://roboflow.com/) for providing the PPE dataset for use.
+- Ultralytics for the powerful yolov8 object detection model.
 
