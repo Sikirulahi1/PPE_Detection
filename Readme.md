@@ -28,7 +28,9 @@ To use this PPE detection system, ensure that you have the following requirement
 - GPU with CUDA support (recommended for faster inference)
 - Minimum of 8GB RAM
 
+
 ### Software:
+
 
 - Python 3.7 and above
 - Required dependencies (specified in `requirements.txt`)
@@ -50,10 +52,12 @@ pip install -r requirements.txt
 
 ## Usage
 
+
 To utilize the PPE detection algorithm on your own images or videos, follow these commands:
 
 - Just change the video path to your own path to the video or image directory.
 - run PPEDetection.py
+
 
 ## Training
 
@@ -68,10 +72,10 @@ I trained the PPE detection model on a custom dataset using the following steps:
 
 View the performance metrics and sample results obtained from the trained model in the `results` directory.
 
+
 ## Acknowledgments
 
 I would like to express my gratitude to the following:
 
 - [Roboflow](https://roboflow.com/) for providing the PPE dataset for use.
 - Ultralytics for the powerful yolov8 object detection model.
-
